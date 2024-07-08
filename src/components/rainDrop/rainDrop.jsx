@@ -105,6 +105,7 @@ const rainDrop = () => {
 
   return (
     <div className="container">
+    <h2 className="header">FOG Rain Pattern</h2>
       <div className="grid-container" ref={gridContainerRef}></div>
     </div>
   );

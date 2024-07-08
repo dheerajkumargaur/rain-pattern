@@ -1,24 +1,27 @@
 body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    font-size: 30pt;
-    font-family: "Press Start 2P", sans-serif;
-  }
-  
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(20, 25px);
-    grid-template-rows: repeat(15, 25px);
-    gap: 1px;
-  }
-  
-  .cell {
-    width: 25px;
-    height: 25px;
-    background-color: black;
-    border: 3.25px solid rgb(55 65 81);
-  }
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  font-size: 30pt;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(20, 25px);
+  grid-template-rows: repeat(15, 25px);
+  gap: 1px;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border: 3.25px solid rgb(55 65 81);
+}
+.header {
+  color: white;
+}
